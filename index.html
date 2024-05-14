@@ -1,27 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Angie María Ortiz Santa </title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <header class="header">
-    <div class="titulo_principal">
-        <h1>Traveling with Angie</h1>
+
+<header>
+    <div class="title-links">
+        <h2> Reservas de turismo, Colombia paraíso verde </h2>
+        <a href="https://www.despegar.com.co/vuelos/"target="_blank">Vuelos</a>
+        <a href="https://www.despegar.com.co/carros/" target="_blank">Alquiler de automoviles</a>
+        <a href="https://www.despegar.com.co/hoteles/" target="_blank">Hoteles</a>
     </div>
 
-    <div class="logo">
-        <img src=""> 
+    <div class="icon">
+        <img src="assets/logo.png" alt="logo" />
     </div>
-    </header>
-    <button>
-        
-    </button>
+</header>
+
+<body>
     <main>
-        <section class="opciones">
+        <form>
+            <select name="selectDestine">
+                <option>Mejores destinos</option>
+                <option>Caño cristales</option>
+                <option>Parque los nevados</option>
+                <option>Parque tayrona</option>
+                <option>Desierto de la tatacoa</option>
+                <option>Valle del cocora</option>
+                <option>Castillo san felipe</option>
+            </select>
+
+            <label for="dayArrive">Dia de salida</label>
+            <input type="date" name="dayArrive" />
+
+            <label for="dayReturn">Dia de regreso</label>
+            <input type="date" name="dayReturn" />
+
+            <select name="selectPeople">
+                <option>Cantidad de personas</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>+9</option>
+            </select>
+        </form>
+
+        <section class="section1">
+            <div class="place1">
+                <h3>Caño cristales</h3>
+                <img src="assets/cañocristales.png" alt="cañocristales"></img>
+            </div>
+
+            <div class="place2">
+                <h3>Parque de los nevados</h3>
+                <img src="assets/parquelosnevados.png" alt="parquelosnevados"></img>
+            </div>
+
+        </section>
+
+        <section class="section2">
+            <div class="place3">
+                <h3>Parque tayrona</h3>
+                <img src="assets/parquetayrona.png" alt="parquetayrona"></img>
+            </div>
+
+            <div class="place4">
+                <h3>Desierto de la tatacoa</h3>
+                <img src="assets/tatacoa.png" alt="tatacoa"></img>
+            </div>
+
+        </section>
+
+        <section class="section3">
+            <div class="place5">
+                <h3>Valle del cocora</h3>
+                <img src="assets/vallecocora.png" alt="vallecocora"></img>
+            </div>
+
+            <div class="place6">
+                <h3>Castillo san felipe</h3>
+                <img src="assets/castillo_san_felipe.png" alt="castillo_san_felipe"></img>
+            </div>
 
         </section>
     </main>
 </body>
+
+<footer>
+    <div class="redes">
+
+        <a href="https://www.facebook.com/">
+            <img src="assets/facebook-logo-24.png" alt="facebook-logo-24" />
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="assets/instagram-logo-24.png" alt="instagram-logo-24" />
+        </a>
+        <a href="https://www.google.com/intl/es-419/gmail/about/">
+            <img src="assets/envelope-regular-24.png" alt="envelope-regular-24" />
+        </a>
+    </div>
+</footer>
 </html>
